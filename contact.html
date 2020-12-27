@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>contact us</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="style.css" rel="stylesheet">
+        
+    </head>
+    <body>
+        <div id="header">
+            <img src="images\logo.png" class="logo" height="120" width="120"/>
+            <h1 class="heading">TechVortex</h1>            
+        </div>
+        <div id="menu">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="#project">Projects</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+            </ul>
+        </div>
+        <div>
+            <center><h1 class="heading1">Contact Us</h1></center>
+            <h6 class="subtitle">Have any questions?We'd love to hear from you.</h6>
+        </div>
+        <section>
+        <div class="container">
+            <form action="https://formspree.io/f/xyybbdey" method="POST" id="my-form">
+                <div class="form-group">
+                    <label for="firstName">First Name</label>
+                    <input type="text" id="firstName" name="lastName">
+                </div>
+                
+                <div class="form-group">
+                    <label for="lastName">Last Name</label>
+                    <input type="text" id="lastName" name="lastName">
+                </div>
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email">
+                </div>
+                <div class="form-group">
+                    <label for="message">Message</label>
+                    <textarea id="message" name="message" cols="30" rows="10"></textarea>
+                </div>
+                <button type="submit">Submit</button>
+            </form>
+        </div>
+            <div id="status"></div>
+        </section>
+        <script src="./main.js"></script>
+    </body>
+</html>
